@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Skipper",
+        "description":"A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+        "languages":["python","pygame"],
+        "code":"https://github.com/MrHuntix/game-skipper",
+        "live":"no"
+    },
+    {
+        "name":"Connect Four",
+        "description":"A game of connect four.",
+        "languages":["javascript","p5.js","socket.io","nodejs","express"],
+        "code":"https://github.com/MrHuntix/connect-four",
+        "live":"https://connect-fourr.herokuapp.com/"
+    },
+    {
+        "name":"Spam Filter",
+        "description":"An email spam filter that classifies weather the email is a spam mail or hame mail. The model is trained using a naive bayes classifier trained with the enron email dataset.",
+        "languages":["python","nltk","sklearn","tkinter"],
+        "code":"https://github.com/MrHuntix/SpamFilter",
+        "live":"no"
+    }
+]

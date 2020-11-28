@@ -19,5 +19,19 @@
         "languages":["python","nltk","sklearn","tkinter"],
         "code":"https://github.com/MrHuntix/SpamFilter",
         "live":"no"
+    },
+    {
+        "name":"Composter",
+        "description":"An android application that acts as a market place for buying and selling compost along with a news feed.",
+        "languages":["Java","Spring Framework","MySQL","Android"],
+        "code":"https://github.com/MrHuntix/composter-ui",
+        "live":"https://drive.google.com/file/d/1QW--KEvS6sYPIYluLUX0NWXjqidd25dm/view?usp=sharing"
+    },
+    {
+        "name":"Spam Filter",
+        "description":"An email spam filter that classifies weather the email is a spam mail or hame mail. The model is trained using a naive bayes classifier trained with the enron email dataset.",
+        "languages":["python","nltk","sklearn","tkinter"],
+        "code":"https://github.com/MrHuntix/SpamFilter",
+        "live":"no"
     }
 ]

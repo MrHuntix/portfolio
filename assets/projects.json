@@ -1,37 +1,58 @@
 [
-    {
-        "name":"Skipper",
-        "description":"A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
-        "languages":["python","pygame"],
-        "code":"https://github.com/MrHuntix/game-skipper",
-        "live":"no"
-    },
-    {
-        "name":"Connect Four",
-        "description":"A game of connect four.",
-        "languages":["javascript","p5.js","socket.io","nodejs","express"],
-        "code":"https://github.com/MrHuntix/connect-four",
-        "live":"https://connect-fourr.herokuapp.com/"
-    },
-    {
-        "name":"Spam Filter",
-        "description":"An email spam filter that classifies weather the email is a spam mail or hame mail. The model is trained using a naive bayes classifier trained with the enron email dataset.",
-        "languages":["python","nltk","sklearn","tkinter"],
-        "code":"https://github.com/MrHuntix/SpamFilter",
-        "live":"no"
-    },
-    {
-        "name":"Composter",
-        "description":"An android application that acts as a market place for buying and selling compost along with a news feed.",
-        "languages":["Java","Spring Framework","MySQL","Android"],
-        "code":"https://github.com/MrHuntix/composter-ui",
-        "live":"https://drive.google.com/file/d/1QW--KEvS6sYPIYluLUX0NWXjqidd25dm/view?usp=sharing"
-    },
-    {
-        "name":"Spam Filter",
-        "description":"An email spam filter that classifies weather the email is a spam mail or hame mail. The model is trained using a naive bayes classifier trained with the enron email dataset.",
-        "languages":["python","nltk","sklearn","tkinter"],
-        "code":"https://github.com/MrHuntix/SpamFilter",
-        "live":"no"
-    }
-]
+        {
+            "_id": "5fdfa21609af0d167c23562b",
+            "app_name": "gbuddies",
+            "description": "A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+            "git_url": "https://git.heroku.com/composter-b.git",
+            "live_url": "https://git.heroku.com/composter-b.git"
+        },
+        {
+            "_id": "5fdfa21d09af0d167c23562c",
+            "app_name": "skipper",
+            "description": "A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+            "git_url": "https://git.heroku.com/composter-b.git",
+            "live_url": "no"
+        },
+        {
+            "_id": "5fdfa22409af0d167c23562d",
+            "app_name": "composter",
+            "description": "A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+            "git_url": "https://git.heroku.com/composter-b.git",
+            "live_url": "no"
+        },
+        {
+            "_id": "5fdfa23509af0d167c235631",
+            "app_name": "webwbwehe",
+            "description": "A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+            "git_url": "https://git.heroku.com/composter-b.git",
+            "live_url": "https://git.heroku.com/composter-b.git"
+        },
+        {
+            "_id": "5fdfa41209af0d167c235633",
+            "app_name": "bewb",
+            "description": "A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+            "git_url": "https://git.heroku.com/composter-b.git",
+            "live_url": "no"
+        },
+        {
+            "_id": "5fdfa5b609af0d167c235638",
+            "app_name": "hhtn",
+            "description": "A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+            "git_url": "https://git.heroku.com/composter-b.git",
+            "live_url": "https://git.heroku.com/composter-b.git"
+        },
+        {
+            "_id": "5fdfa5b909af0d167c235639",
+            "app_name": "gwegweg",
+            "description": "A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+            "git_url": "https://git.heroku.com/composter-b.git",
+            "live_url": "no"
+        },
+        {
+            "_id": "5fdfa5bc09af0d167c23563a",
+            "app_name": "wegeg",
+            "description": "A game where the players controls a character whose objective is to jump over the obstacles. If the character hits the obstacle then its game over.",
+            "git_url": "https://git.heroku.com/composter-b.git",
+            "live_url": "no"
+        }
+    ]

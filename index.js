@@ -4,7 +4,7 @@ let projectDetails = null;
 //./chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
 
 let settings = {
-    "url": "http://ec2-13-234-34-12.ap-south-1.compute.amazonaws.com:3100/client",
+    "url": "https://ec2-13-234-34-12.ap-south-1.compute.amazonaws.com:3100/client",
     "method": "GET",
     "timeout": 0,
     "headers": {
@@ -12,7 +12,7 @@ let settings = {
     },
 };
 
-let sseSource = new EventSource('http://ec2-13-234-34-12.ap-south-1.compute.amazonaws.com:3100/client/delta');
+let sseSource = new EventSource('https://ec2-13-234-34-12.ap-south-1.compute.amazonaws.com:3100/client/delta');
 
 sseSource.onopen = function () {
     console.log('sse opened');

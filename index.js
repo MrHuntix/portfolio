@@ -2,9 +2,10 @@ let projects = [];
 let projectList = null;
 let projectDetails = null;
 //./chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
+let baseUrl = `http://ec2-13-234-75-74.ap-south-1.compute.amazonaws.com:3100/client/`;
 
 let settings = {
-    "url": "https://easymep.in/client/",
+    "url": `${baseUrl}`,
     "method": "GET",
     "timeout": 0,
     "headers": {
@@ -12,7 +13,7 @@ let settings = {
     },
 };
 
-let sseSource = new EventSource('https://easymep.in/client/delta');
+let sseSource = new EventSource(`${baseUrl}/delta`);
 
 sseSource.onopen = function () {
     console.log('sse opened');
